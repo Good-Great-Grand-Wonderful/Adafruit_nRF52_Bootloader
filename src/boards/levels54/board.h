@@ -25,23 +25,18 @@
 #ifndef _LEVELS54
 #define _LEVELS54
 
-#define _PINNUM(port, pin) ((port) * 32 + (pin))
-
 #define UICR_REGOUT0_VALUE UICR_REGOUT0_VOUT_3V3
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER 1
-#define LED_PRIMARY_PIN _PINNUM(0, 4)
+#define LED_PRIMARY_PIN PINNUM(0, 4)
 #define LED_STATE_ON 1
 
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
-#define BUTTONS_NUMBER 2
-#define BUTTON_1 _PINNUM(0, 18)
-#define BUTTON_2 _PINNUM(0, 19) // SW2 on board
-#define BUTTON_PULL NRF_GPIO_PIN_PULLUP
+ // Buttons change from side to side.
 
 //--------------------------------------------------------------------+
 // BLE OTA
