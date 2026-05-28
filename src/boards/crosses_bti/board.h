@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef _LEVELS54
-#define _LEVELS54
+#ifndef _CROSSES_BTI
+#define _CROSSES_BTI
 
 #define UICR_REGOUT0_VALUE UICR_REGOUT0_VOUT_3V3
 /*------------------------------------------------------------------*/
@@ -42,17 +42,17 @@
 // BLE OTA
 //--------------------------------------------------------------------+
 #define BLEDIS_MANUFACTURER "GGGW"
-#define BLEDIS_MODEL "Levels54"
+#define BLEDIS_MODEL "CrossesBTI"
 
-#define UF2_PRODUCT_NAME "Levels54"
+#define UF2_PRODUCT_NAME "Crosses"
 #define UF2_INDEX_URL "https://ergokeyboards.com"
-#define UF2_VOLUME_LABEL "LEVELS54"
-#define UF2_BOARD_ID "levels_rev_6"
+#define UF2_VOLUME_LABEL "CROSSES_BTI"
+#define UF2_BOARD_ID "crosses_bti_1"
 
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
 #define USB_DESC_VID 0x1209
-#define USB_DESC_UF2_PID 0x5284
-#define USB_DESC_CDC_ONLY_PID 0x5284
-#endif // LEVELS54
+#define USB_DESC_UF2_PID 0xABEF
+#define USB_DESC_CDC_ONLY_PID 0xABEF
+#endif // CROSSES_BTI
