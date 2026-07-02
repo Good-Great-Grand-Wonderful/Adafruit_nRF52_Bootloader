@@ -42,12 +42,12 @@
 // BLE OTA
 //--------------------------------------------------------------------+
 #define BLEDIS_MANUFACTURER "GGGW"
-#define BLEDIS_MODEL "CrossesBTI"
+#define BLEDIS_MODEL "Crosses V2"
 
 #define UF2_PRODUCT_NAME "Crosses"
 #define UF2_INDEX_URL "https://ergokeyboards.com"
-#define UF2_VOLUME_LABEL "CROSSES_BTI"
-#define UF2_BOARD_ID "crosses_bti_1"
+#define UF2_VOLUME_LABEL "CROSSES_V2"
+#define UF2_BOARD_ID "crosses_v2"
 
 //--------------------------------------------------------------------+
 // USB
